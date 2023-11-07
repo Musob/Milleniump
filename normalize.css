@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+        
+    }
+    h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    }
+    ul{
+    list-style: none;
+    }
+    a{
+    text-decoration: none;
+    }
+    .d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .container {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 480px;
+    
+    }
+    .main__bottom ul{
+    list-style:disc;
+    }

@@ -1,0 +1,221 @@
+nav {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 37px;
+  margin-top: 20px;
+}
+.phone {
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  width: 52px;
+  height: 32px;
+}
+header h1 {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header h1 span {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header p {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header p span {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mainimg {
+  background-image: url(./img/Group\ 30.png);
+  background-repeat: no-repeat;
+  margin-bottom: 35px;
+}
+.main__top button {
+  width: 275px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  color: aliceblue;
+  border-color: #6b5af9;
+  margin-left: 80px;
+  margin-top: 43px;
+  cursor: pointer;
+}
+.main__top p span {
+  color: var(--2, #6b5af9);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.4%;
+}
+.main__top p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.4%;
+  text-align: center;
+  margin-top: 10px;
+}
+.arrow {
+  cursor: pointer;
+}
+.main__centerp {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.main__centerp span {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.main__top img {
+  margin-left: 200px;
+  margin-top: 25px;
+}
+.cards {
+  margin-left: 70px;
+}
+.card {
+  width: 340px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+.card h1 {
+  color: #fff;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 11px;
+  margin-left: 15px;
+}
+.card img {
+  margin-left: 15px;
+}
+.card span {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.card p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 320px;
+}
+.card:hover {
+  transform: scale(1.07, 1.07);
+  transition: 0.5s;
+}
+.main__center button {
+  width: 275px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  color: aliceblue;
+  margin-left: 95px;
+  margin-top: 43px;
+  border-color: #6b5af9;
+  cursor: pointer;
+}
+.main__bottom{
+    margin-left: 20px;
+}
+.main__bottomp {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 100px;
+}
+.main__bottomp span {
+  color: var(--2, #6b5af9);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.main__bottom h4 {
+    color: var(--2, #6B5AF9);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+margin-top: 40px;
+}
+.main__bottom ul{
+    color: var(--1, #2A2367);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 40px;
+}
+.main__bottom button{
+    width: 275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--2, #6b5af9);
+    color: aliceblue;
+    border-color: #6b5af9;
+    margin-left: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
